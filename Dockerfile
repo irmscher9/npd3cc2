@@ -26,7 +26,7 @@ EXPOSE 8080
 # Define environment variable
 ENV FLASK_APP app.py
 ENV EMAIL_USER mywebsidekicks@gmail.com
-ENV EMAIL_PASSWORD puff1st0lt0
+ENV EMAIL_PASSWORD mypass
 
 #
 RUN source venv/bin/activate
